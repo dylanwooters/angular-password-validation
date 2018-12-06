@@ -1,14 +1,18 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { PasswordValidationComponent } from './password-validation/password-validation.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PasswordValidationComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
