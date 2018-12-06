@@ -1,4 +1,4 @@
-# AngularPasswordValidation
+# angular-password-validation
 
 This Angular component validates passwords, providing a color-coded strength bar, basic password goals, and optional hints. 
 
